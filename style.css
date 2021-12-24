@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+:root{
+
+}
+body{
+    color:black;
+    background-image: url("./images/snowImg.jpg");
+    background-size:cover;
+    
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin:0;
+    font-family: 'PT Serif', serif;
+}
+h1{
+    font-size: 3rem;
+    margin-top: -5rem;
+    
+    font-weight: normal;
+}
+.container{
+    display: flex;
+    
+}
+.bigText{
+    font-size: 3rem;
+    margin:-0.5rem 2rem;
+}
+.countdown-align{
+    text-align: center;
+    
+}
+.countdown-align span{
+    font-weight: bold;
+}

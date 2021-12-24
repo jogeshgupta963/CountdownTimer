@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+    <h1>Set Countdown</h1>
+    <div class="setInfo">
+        <label for="heading"style="font-weight: bold;">Heading</label>
+        <input type="text" id="heading">
+        <label for="Date" style="font-weight: bold;">Date</label>
+        <input type="text"  id="date">
+        <button class="btn">Start Countdown</button>
+    </div>
+    <div class="container">
+        <!-- Days -->
+        <div class="countdown-align days">
+            <p class="bigText" id="daysCount">0</p>
+            <span>Days</span>
+         </div>
+         <!-- Hours -->
+        <div class="countdown-align hours">
+            <p class="bigText" id="hoursCount">0</p>
+            <span>Hours</span>
+        </div>
+            <!-- minutes -->
+        <div class=" countdown-align min">
+            <p class="bigText" id="minCount">0</p>
+            <span>Minutes</span>
+        </div>
+            <!-- Seconds -->
+        <div class="countdown-align sec">
+            <p class="bigText" id="secCount">0</p>
+            <span>Seconds</span>
+         </div>
+    </div>
+
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>
